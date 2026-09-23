@@ -1,7 +1,7 @@
 import { requestLocationPermisison } from '@/core/actions/permissions/location'
 import ThemedPressable from '@/presentation/components/shared/themed-pressable'
 import { ThemedText } from '@/presentation/components/shared/themed-text'
-import { usePermissionStore } from '@/presentation/store/usePermissions'
+import { usePermissionStore } from '@/presentation/store/usePermissionsStore'
 import { View } from 'react-native'
 
 const PermissionsScreen = () => {
